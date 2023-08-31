@@ -1,0 +1,45 @@
+.page {
+    display: grid;
+    grid-template-columns: 310px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+.navbar {
+    padding: 10px;
+}
+
+.title {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.nav-link {
+    display: block;
+    font-size: 20px;
+    color: darkgray;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+/* Main */
+
+.main {
+    margin-top: 50px;
+}
+
+.code-wrapper {
+    display: block;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.section-text {
+    padding-left: 10px;
+}
